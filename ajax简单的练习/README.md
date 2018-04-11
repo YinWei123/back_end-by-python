@@ -1,13 +1,13 @@
-# back_end-by-python
-Python backend development
+## Python backend development
 
-代码的内容主要是
+#### 代码的内容主要是
 （都是十分简陋的功能）
-    前端用 ajax 发送 HTTP 请求到后端
-    后端 API
-    ajax实现todo程序
-    ajax实现weibo和动态评论
-	
+-    前端用 ajax 发送 HTTP 请求到后端
+-    后端 API
+-    ajax实现todo程序
+-    ajax实现weibo和动态评论
+
+#### 使用ajax的感想 哈哈哈	
 本代码是学习ajax后的简单练习
 在知乎上看到一句话："ajax就是浏览器与服务端的悄悄话"
 浏览器的js脚本监控页面的事件，通过ajax向服务端发送
@@ -15,5 +15,4 @@ Python backend development
 ajax在收到服务端的回复时，会调用发送消息时填入的回
 调函数，回调函数就可以通过js直接对页面进行修改，而
 不需要告知浏览器重新载入这个页面。
-
 本例就是通过绑定click事件动态的进行页面增删改操作。
